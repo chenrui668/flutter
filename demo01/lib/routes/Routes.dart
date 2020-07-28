@@ -11,6 +11,9 @@ import '../pages/user/RegisterThird.dart';
 import '../pages/AppBarDemo.dart';
 import '../pages/TabbarController.dart';
 import '../pages/User.dart';
+import '../pages/TextField.dart';
+import '../pages/Radio.dart';
+import '../pages/CheckBox.dart';
 
 
 final routes = {
@@ -26,6 +29,9 @@ final routes = {
   '/appBarDemo': (context) => AppBarDemoPage(),  
   '/tabbarController': (context) => TabbarControllerPage(),  
   '/user': (context) => UserPage(),
+  '/textField': (context) => TextFieldPage(),
+  '/radio': (context) => RadioPage(),
+  '/checkBox': (context) => CheckBoxPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings) {
